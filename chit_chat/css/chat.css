@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+.main
+{
+    width: 100%;
+    background-color: #d2dae2;
+    padding: 20px;
+    color: black;
+}
+.user_prof
+{
+    width: 90%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    background-color: #ef5777;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 990px) {
+    .user_prof
+    {
+        height: auto;
+        width: 100%;
+    }
+}
+.user_image
+{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 2px solid black;
+}
+.center
+{
+    margin: auto !important;
+    text-align: center !important;
+}
+.chat_area
+{
+     overflow:scroll !important;
+     height: 550px;
+     background-color: rgb(148, 230, 110);
+     border: 5px solid #485460;
+     color: aliceblue;
+}
+.left
+{
+    float: left;
+    width: 500px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.right
+{
+    float: right;
+    width: 500px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 30px;
+}
+.right_text
+{
+    float: right;
+    text-align: right;
+    background-color: rgb(57, 163, 71);
+    border-radius: 10px;
+    padding: 10px;
+}
+.left_text
+{
+    float: left;
+    width: auto;
+    margin-bottom: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.chat_area ul
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.c_inp
+{
+    width: 100%;
+    font-size: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+.c_btn
+{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(36, 84, 241);
+    padding: 8px;
+    cursor: pointer;
+}
+.c_btn:hover
+{
+    background-color: rgb(100, 136, 255);
+}
+
+.online
+{
+    background-color: rgb(62, 255, 62);
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    border: 4px solid rgb(245, 245, 245);
+    margin-top: 5px;
+}
+.offline
+{
+    background-color: #f1c40f;
+    padding: 5px;
+    border-radius: 10px;
+    border: 4px solid rgb(245, 245, 245);
+    color: black;
+    margin: 2px;
+}
